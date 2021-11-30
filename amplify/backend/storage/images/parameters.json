@@ -1,5 +1,5 @@
 {
-    "bucketName": "thisorthatimagebucket",
+    "bucketName": "thisorthatimagebucket-anacunha",
     "authPolicyName": "s3_amplify_3dfb3b5a",
     "unauthPolicyName": "s3_amplify_3dfb3b5a",
     "authRoleName": {
