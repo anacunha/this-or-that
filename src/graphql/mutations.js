@@ -23,6 +23,7 @@ export const createPoll = /* GraphQL */ `
       }
       itemType
       createdAt
+      updatedAt
     }
   }
 `;
@@ -40,6 +41,7 @@ export const updatePoll = /* GraphQL */ `
       }
       itemType
       createdAt
+      updatedAt
     }
   }
 `;
@@ -57,6 +59,7 @@ export const deletePoll = /* GraphQL */ `
       }
       itemType
       createdAt
+      updatedAt
     }
   }
 `;
@@ -71,6 +74,8 @@ export const createCandidate = /* GraphQL */ `
       image
       name
       upvotes
+      createdAt
+      updatedAt
     }
   }
 `;
@@ -85,6 +90,8 @@ export const updateCandidate = /* GraphQL */ `
       image
       name
       upvotes
+      createdAt
+      updatedAt
     }
   }
 `;
@@ -99,6 +106,8 @@ export const deleteCandidate = /* GraphQL */ `
       image
       name
       upvotes
+      createdAt
+      updatedAt
     }
   }
 `;
